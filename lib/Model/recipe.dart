@@ -9,6 +9,7 @@ class Recipe {
   Recipe( this.imageUrl,  this.imgLabel, this.description, this.ingredients);
 
   static List<Recipe> samples = [
+<<<<<<< HEAD
      Recipe('assets/images/a.webp','Thai-style fishcakes with sweet and sour cucumber pickle', 'A delicious Thai dish made with fish cakes and a sweet and sour cucumber pickle.', [
         Ingredient(name: 'Fish', quantity: 200, unit: 'grams'),
         Ingredient(name: 'Cucumber', quantity: 1, unit: 'piece'),
@@ -45,5 +46,12 @@ class Recipe {
         Ingredient(name: 'Fish sauce', quantity: 15, unit: 'ml'),
 
      ]),
+=======
+     Recipe('assets/images/poloshirt.webp','Polo Shirt Blue'),
+     Recipe('assets/images/poloshirt2.webp','Cool Uniqlo Rugger Polo Shirt'),
+     Recipe('assets/images/T-shirt.webp','White T-Shirt'),
+     Recipe('assets/images/sweater.webp','Knit Crew Neck Long-Sleeve Sweater'),
+     Recipe('assets/images/hoodie.webp','Black Hoodie'),
+>>>>>>> 1c0a7fe291cc8a227b054ed90f4624292070f039
   ];
 }
