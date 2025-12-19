@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import 'package:flutter/material.dart';
 import 'package:projectapp2/Model/recipe.dart';
 import 'package:projectapp2/Model/ingredient.dart';
@@ -85,22 +84,3 @@ class _RecipeDetailState extends State<RecipeDetail> {
   }
 }
  
-=======
-import 'package:flutter/material.dart ';
-
-class RecipeDetail extends StatelessWidget {
-  const RecipeDetail({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Recipe Detail'),
-      ),
-      body: const Center(
-        child: Text('Details of the recipe will be shown here.'),
-      ),
-    );
-  }
-}
->>>>>>> 1c0a7fe291cc8a227b054ed90f4624292070f039
