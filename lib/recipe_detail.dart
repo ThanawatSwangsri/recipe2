@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:projectapp2/Model/recipe.dart';
-import 'package:projectapp2/Model/ingredient.dart';
- 
+import 'package:google_fonts/google_fonts.dart';
+
 class RecipeDetail extends StatefulWidget {
   final Recipe recipe;
   const RecipeDetail({super.key, required this.recipe});
@@ -33,19 +33,17 @@ class _RecipeDetailState extends State<RecipeDetail> {
             const SizedBox(height: 14.0),
             Text(
               widget.recipe.imgLabel,
-              style: const TextStyle(
-                fontSize: 15.0,
+              style: GoogleFonts.kanit(
+                fontSize: 20.0,
                 fontWeight: FontWeight.w700,
-                fontFamily: 'Palatino',
               ),
             ),
             const SizedBox(height: 14.0),
             Text(
               widget.recipe.description,
-              style: const TextStyle(
-                fontSize: 15.0,
+              style: GoogleFonts.kanit(
+                fontSize: 20.0,
                 fontWeight: FontWeight.w700,
-                fontFamily: 'Palatino',
               ),
             ),
  

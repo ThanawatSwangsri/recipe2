@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:projectapp2/Model/recipe.dart';
 import 'package:projectapp2/recipe_detail.dart';
+import 'package:google_fonts/google_fonts.dart';
  
 void main() {
   runApp(const RecipeApp());
@@ -13,7 +14,7 @@ class RecipeApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(appBarTheme: const AppBarTheme(centerTitle: true)),
-      home: const MyHomePage(title: 'Recipe Detail'),
+      home: const MyHomePage(title: 'Recipe Calculator'),
     );
   }
 }
@@ -69,10 +70,9 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(height: 14.0),
             Text(
               recipe.imgLabel,
-              style: const TextStyle(
+              style: GoogleFonts.kanit(
                 fontSize: 20.0,
                 fontWeight: FontWeight.w500,
-                fontFamily: 'Palatino',
               ),
             ),
           ],
